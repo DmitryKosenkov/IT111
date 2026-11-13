@@ -13,7 +13,7 @@ data1 = {
 
 
 # creating JSON file
-with open ('data1.json', 'w') as json_file:
+with open('data1.json', 'w') as json_file:
     json.dump(data1, json_file, indent=4)
 
 
